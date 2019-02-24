@@ -37,7 +37,9 @@ a{
 .container{
     margin:auto;
     margin-top:20px;
-    overflow: hidden;
+    margin-bottom:60px;
+    overflow-x: hidden;
+    overflow-y: auto;
     width: 960px;
     clear:both;
     border-style: solid;
@@ -99,13 +101,24 @@ form input{
 
 }
 
-p{
-
-}
-
-section{
-
-}
+.row {
+    margin:10px 0px;
+    width: 960px;
+    display:flex;
+  }
+  
+  .column {
+    width: 320px;
+  }
+  
+  .column img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    margin: 20px;
+    vertical-align: middle;
+  }
+  
 
 footer{
     color:lightgrey;
