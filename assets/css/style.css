@@ -3,7 +3,7 @@ body{
 }
 
 header {
-    overflow: auto;
+    overflow: hidden;
     background: white;
     border-bottom:2px #999999 solid;
   }
@@ -53,7 +53,15 @@ a{
     margin:20px 20px 0px 20px;
     border-bottom: #999999 solid 2px;
 }
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.button{
+    color:white;
+    background-color:#4aaaa5;
 
+}
 #name-banner{
     color:white;
     background-color: #4aaaa5;
