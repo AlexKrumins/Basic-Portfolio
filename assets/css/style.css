@@ -1,6 +1,5 @@
 body{
-    background-image:url(..\images\1475797_10101384543390911_1539120123_n.jpg);
-    background-color:grey;
+    background-image:url(../images/cheap_diagonal_fabric.png);
 }
 
 header {
@@ -12,7 +11,7 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     float: right;
-    margin-top:40px;
+    margin-top:30px;
 }
 
 li{
@@ -89,7 +88,21 @@ section{
 }
 
 footer{
-    text-align: center;
-    margin-bottom: 0px;
+    color:lightgrey;
+    height:40px;
+    overflow: auto;
+    background: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-style:solid;
+    border-width: 5px 0px 0px 0px;
+    border-color:#4aaaa5;
+}
 
+#copyright{
+    text-align: center;
+    line-height:55px;
+    
 }
