@@ -5,6 +5,7 @@ body{
 header {
     overflow: auto;
     background: white;
+    border-bottom:2px #999999 solid;
   }
 ul{
     list-style-type: none;
@@ -90,7 +91,6 @@ section{
 footer{
     color:lightgrey;
     height:40px;
-    overflow: auto;
     background: #666666;
     position: fixed;
     left: 0;
